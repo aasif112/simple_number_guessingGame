@@ -19,12 +19,12 @@ if (isNaN(answer.userGuess) || answer.userGuess < 1 || answer.userGuess > 6) {
 }
 else {
     if (answer.userGuess === compGuess) {
-        console.log('You Guessed RIGHT number.');
+        console.log('You Guessed the RIGHT number.');
     }
     else if ((answer.userGuess - 1) === compGuess || (answer.userGuess + 1) === compGuess) {
         console.log('You NEARLY MISSED the number');
     }
     else {
-        console.log('You Guessed WRONG number.');
+        console.log('You Guessed a WRONG number.');
     }
 }
